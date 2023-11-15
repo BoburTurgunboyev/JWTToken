@@ -6,7 +6,7 @@ namespace JWTToken.DataAccess
     public class AuthDbContext : DbContext
     {
         public AuthDbContext(DbContextOptions<AuthDbContext> options) : base(options) { }
-        public DbSet<Users> users { get; set; }
+        public DbSet<Users> Users { get; set; }
 
     }
 }
